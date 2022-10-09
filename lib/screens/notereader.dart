@@ -29,7 +29,7 @@ class _NotereaderState extends State<Notereader> {
             style: Appstyle.mainTitle,
             ),
             SizedBox(
-              height: 4,
+              height: 14,
             ),
             Text(
               widget.doc["creation_date"],

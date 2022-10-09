@@ -20,7 +20,7 @@ class _HomescreenState extends State<Homescreen> {
       backgroundColor: Appstyle.maincolor,
       appBar: AppBar(
         elevation: 0,
-        title: Text("FireNotes"),
+        title: Text("Notes"),
         centerTitle: true,
         backgroundColor: Appstyle.maincolor,
       ),
@@ -28,10 +28,13 @@ class _HomescreenState extends State<Homescreen> {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            "Your recent Notes",
-            style: TextStyle(
-                fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
+          Padding(
+            padding: const EdgeInsets.only(left:10.0),
+            child: Text(
+              "Your recent Notes",
+              style: TextStyle(
+                  fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
+            ),
           ),
           SizedBox(
             height: 20,
